@@ -4,7 +4,7 @@ Using system tables for identification property coluns and cells.
 
 This instruction for use the generate dictionary off date in SQL Server.
 
-------------------------------------
+
 
 SELECT
   S.name AS 'Schema',
@@ -22,7 +22,7 @@ INNER JOIN sys.types TY
   ON TY.user_type_id = C.user_type_id
 LEFT JOIN sys.schemas S
   ON T.schema_id = S.schema_id
-  ------------------------------------------
+
 
 
 
