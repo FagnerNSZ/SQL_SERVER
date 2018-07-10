@@ -1,6 +1,6 @@
 
 # SQL_SERVER
-#Using system tables for identification property coluns and cells.
+Using system tables for identification property coluns and cells.
 
 This instruction for use the generate dictionary off date in SQL Server.
 
